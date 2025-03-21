@@ -1,0 +1,89 @@
+.loginText h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #4F4F4F;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.loginText{
+    margin-top: 90px;
+}
+.Header{
+    display: flex;
+    width: 1442px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.loginLine{
+    width: 512px;
+    height: 382px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.loginLine p {
+    color: #667085;
+    font-size: 16px;
+    width: 238px;
+    text-align: center;
+    height: 58px;
+}
+body{
+    background-color: #fbfbfb;
+}
+.buttons{}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 248px;
+    height: 42px;
+    padding-left: 10px  ;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #8A8A8A;
+    font-weight: 500;
+    border: 1px solid #A7A7A7;
+    border-radius: 4px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.btn1{
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    width: 260px;
+    height: 42px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    background: #2D88D4;
+    transition: .5s;
+    cursor: pointer;
+}
+.btn2{
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2D88D4;
+    width: 260px;
+    height: 42px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    transition: .5s;
+    background: none;
+    cursor: pointer;
+}
